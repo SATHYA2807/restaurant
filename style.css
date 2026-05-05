@@ -68,7 +68,10 @@ ul{
     color: chocolate
 }
 .food{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(180px,1fr));
     padding-top: 50px;
+    gap:20px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
