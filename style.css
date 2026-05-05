@@ -20,7 +20,7 @@ h1{
     text-align: center;
     padding-bottom: 40px;
     padding-top: 110px;
-    font-size: 67px;
+    font-size: 45px;
     color: aliceblue;
     
 }
@@ -28,14 +28,14 @@ h3{
     text-align: center;
     padding-bottom: 50px;
     padding-top: 5px;
-    font-size: 30px;
+    font-size: 25px;
 }
 li{
     display: inline;
     list-style: none;
-    margin-left: 5px;
-    margin-right: 5px;
-    font-size: 23px;
+    margin-left: 3px;
+    margin-right: 3px;
+    font-size: 20px;
    
 }
 li:hover{
@@ -50,6 +50,10 @@ ul{
     flex-direction: row;
     justify-content: flex-end;
     align-items: flex-end;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
 }
 .heading{
     background-color:darkred;
